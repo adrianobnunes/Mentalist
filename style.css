@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #b9b7a1;
+    
+}
+
+.poster{
+    height: 450px;
+    border: 2px solid black;
+    box-shadow:  0 0 1em white;
+}
+
+.container {
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+button{
+    width: 180px;
+    height: 35px;
+    background-color: darkgoldenrod;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    margin: 5px 43%;
+
+}
+
+button:hover{
+    background-color:rgb(146, 113, 28) ;
+}
+
+button:active{
+    background-color: rgb(58, 50, 29);
+}
+
+.contato, .redes-socias{
+    width: 450px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+
+
+.texto-redes-sociais{
+    font-style: italic;
+}
+@media (max-height: 500px) {
+    body {
+      min-height:800px;
+    }
+}
