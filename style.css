@@ -3,10 +3,14 @@
     padding: 0;
 }
 
-body {
+.page-container {
     font-family: 'Roboto', sans-serif;
     background-color: #b9b7a1;
     
+}
+
+.titulo-principal{
+    text-align: center;
 }
 
 .poster{
@@ -16,9 +20,18 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     padding-top: 20px;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.descricao-jogo{
+    width: 350px;
+    padding: 5px;
 }
 
 button{
@@ -47,12 +60,6 @@ button:active{
 }
 
 
-
 .texto-redes-sociais{
     font-style: italic;
-}
-@media (max-height: 500px) {
-    body {
-      min-height:800px;
-    }
 }

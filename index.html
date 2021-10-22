@@ -5,32 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="index.js" defer></script>
     <title>Mentalist</title>
 </head>
 <body>
-    <div class="container">
-        <h1 class="titulo-principal">Mentalista</h1>
-        <p>Digite um número de 0 a 10</p>
-        <img  class="poster" src="img/2020-956-o-mentalista-poster.jpg" alt="Poster Série O Mentalista">
-    </div>
+    <div class="page-container">
+        <header class="cabecalho">
+            <h1 class="titulo-principal">Mentalista</h1>
+        </header>
     
-    <div class="reiniciar-jogo">
-        <a href="index.html"><button>JOGAR NOVAMENTE</button></a>
+        <main class="conteudo">
+            <div class="container">
+                <p class="descricao-jogo">O objetivo deste jogo é que o jogador adivinhe o número secreto.</p>
+                <p class="descricao-jogo">O jogador terá 3 tentativas para acertar o número de 1 a 10.</p>
+                
+                <img  class="poster" src="img/2020-956-o-mentalista-poster.jpg" alt="Poster Série O Mentalista">
+            </div>
+            
+            <div class="reiniciar-jogo">
+                <button onclick="jogar()">JOGAR</button>
+            </div>
+        </main>
+        
+        <footer class="rodape">
+            <div class="contato">
+                <p class="texto-redes-sociais">Siga-me nas redes socias ou entre em contato por email</p>
+            </div>
+        
+            <div class="redes-socias">
+                <a href= "https://www.linkedin.com/in/adriano-becco-nunes-83222a1b5/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+                <a href="https://instagram.com/adrianobn.nunes" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+                <a href = "mailto:adrianobn.nunes@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>  
+                <a href= "https://github.com/adrianobnunes" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
+            </div>
+        </footer>
     </div>
 
-
-    <div class="contato">
-        <p class="texto-redes-sociais">Siga-me nas redes socias ou entre em contato por email</p>
-
-    </div>
-
-    <div class="redes-socias">
-        <a href= "https://www.linkedin.com/in/adriano-becco-nunes-83222a1b5/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-        <a href="https://instagram.com/adrianobn.nunes" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-        <a href = "mailto:adrianobn.nunes@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>  
-        <a href= "https://github.com/adrianobnunes" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
-    </div>
-
+    <script src="index.js" defer></script>
 </body>
 </html>
